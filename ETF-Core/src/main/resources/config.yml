@@ -1,0 +1,25 @@
+# Should we notify the console when we interact with entities?
+# - Default value(s): false
+log-to-console: false
+
+# How low should the server's TPS be before we do anything?
+# - Note: Setting this value above 20 or below 1 will skip this check, allowing the tasks to run 24/7.
+# - Default value(s): 19.5
+tps-limit: 19.5
+
+# How often (in ticks) should we check for "lingering" entities?
+# - Default value(s): 300
+untrack-ticks: 300
+
+# How often (in ticks) should we check for players near un-tracked entities?
+# - Default value(s): 40
+retrack-ticks: 40
+
+# How far (in blocks) should we look for players near un-tracked entities?
+# - Default value(s): 32
+retrack-range: 32
+
+# What worlds should we perform our tasks on?
+# - Note: Adding '*' to this list will enable our tasks in ALL worlds.
+# - Default value(s): [ '*' ]
+worlds: [ '*' ]
